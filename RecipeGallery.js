@@ -4,9 +4,11 @@ import React from 'react';
 
 const RecipeGallery = () => {
   const recipes = [
-    { id: 1, title: "Spaghetti Carbonara", ingredients: ["Pasta", "Eggs", "Cheese", "Bacon"], image: "https://example.com/carbonara.jpg" },
-    { id: 2, title: "Chicken Alfredo", ingredients: ["Chicken", "Fettuccine", "Cream", "Parmesan"], image: "https://example.com/alfredo.jpg" },
-    // Add more recipes as needed
+    { id: 1, title: "Spaghetti Carbonara", ingredients: ["Pasta", "Eggs", "Cheese", "Bacon"], image: "https://i0.wp.com/dashofsavory.com/wp-content/uploads/2015/08/IMG_78541.jpg?fit=2000%2C1334&ssl=1"},
+    { id: 2, title: "Chicken Alfredo", ingredients: ["Chicken", "Fettuccine", "Cream", "Parmesan"], image: "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-4.jpg" },
+    { id: 3, title: "Vegetable Stir Fry", ingredients: ["Broccoli", "Carrots", "Bell peppers", "Onions", "Garlic", "Soy sauce", "Vegetable oil"], image: "https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg"},
+    { id: 4, title: "Margherita Pizza", ingredients: ["Pizza dough", "Tomatoes", "Fresh mozzarella", "Basil leaves", "Olive oil", "Salt", "Black pepper"], image: "https://cdn.loveandlemons.com/wp-content/uploads/2023/07/margherita-pizza-500x375.jpg" }
+    
   ];
 
   return (
